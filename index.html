@@ -333,9 +333,21 @@ const ROSTER = [
   { key: 'gia-linh', label: 'Gia Linh', alias: ['gia linh', 'linh'] },
   { key: 'tra-giang', label: 'Trà Giang', alias: ['tra giang', 'giang'] }
 ];
-// --- NƠI NHẬN KẾT QUẢ: tạo Google Form mới (nhân bản form cũ) rồi điền vào đây ---
-const FORM_ENDPOINT = '';
-const ENTRY = { ten:'', ngay:'', dung:'', tong:'', sao:'', loiSai:'', phanTram:'', dapAnCuaEm:'' };
+// --- NƠI NHẬN KẾT QUẢ: Google Form → Google Sheet ---
+// Form: "Bảng điểm Cộng trừ nhẩm qua 10 — lớp 4" (dùng chung bảng điểm với bài Cộng trừ nhẩm).
+// entry.* lấy từ FB_PUBLIC_LOAD_DATA_ trong /viewform, đã đối chiếu theo tiêu đề từng câu.
+// Muốn đổi sang form riêng: mở /viewform của form mới, thay FORM_ENDPOINT + 8 mã entry.* theo tiêu đề.
+const FORM_ENDPOINT = 'https://docs.google.com/forms/d/e/1FAIpQLSec0WtGr1znhnYgEFJio5BM0iMpqSVr7EOLb9VSxff6QeMy_g/formResponse';
+const ENTRY = {
+  ten: 'entry.2005620554',        // Tên em
+  ngay: 'entry.509135542',        // Ngày làm bài
+  dung: 'entry.2028471663',       // Số câu đúng
+  tong: 'entry.275147971',        // Tổng số câu được chấm
+  sao: 'entry.1045781291',        // Số sao
+  loiSai: 'entry.1065046570',     // Lời sai của em
+  phanTram: 'entry.1166974658',   // Tỉ lệ %
+  dapAnCuaEm: 'entry.839337160'   // Đáp án em đã ghi
+};
 const SEND_READY = FORM_ENDPOINT.indexOf('http') === 0;
 
 // ================= DỮ LIỆU =================

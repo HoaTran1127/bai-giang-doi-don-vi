@@ -40,14 +40,25 @@ Lấy cấu trúc mẫu từ [`bai-giang-toan-4`](https://github.com/HoaTran1127
 - Nộp bài khi đủ 16 câu → trang dựng một **form ẩn POST thẳng về Google Form**, kết quả đổ vào Google Sheet.
 - Sao: 3★ từ 85% (≥14/16) · 2★ từ 60% (≥10) · 1★ từ 30% (≥5) · dưới 5 câu = 0★.
 
-## Cài đặt nơi nhận kết quả (làm 1 lần)
+## Nơi nhận kết quả (đã cài xong)
 
-`FORM_ENDPOINT` và `ENTRY.*` trong `index.html` đang để trống — trang vẫn chạy, chỉ không gửi điểm.
+`FORM_ENDPOINT` và 8 mã `ENTRY.*` trong `index.html` đã điền và kiểm chứng — học sinh nộp điểm là đổ về
+Google Sheet **"Bảng điểm Cộng trừ nhẩm qua 10 — lớp 4 (Câu trả lời)"**, dùng chung bảng với bài
+*Cộng trừ nhẩm qua 10* nên thầy chỉ xem một nơi.
+
+- Endpoint: `https://docs.google.com/forms/d/e/1FAIpQLSec0WtGr1znhnYgEFJio5BM0iMpqSVr7EOLb9VSxff6QeMy_g/formResponse`
+- 8 mã `entry.*` lấy từ `FB_PUBLIC_LOAD_DATA_` trong `/viewform` đang chạy, đối chiếu theo tiêu đề
+  (Tên em → `2005620554` · Ngày làm bài → `509135542` · Số câu đúng → `2028471663` ·
+  Tổng số câu → `275147971` · Số sao → `1045781291` · Lời sai → `1065046570` ·
+  Tỉ lệ % → `1166974658` · Đáp án em đã ghi → `839337160`).
+- Form giữ nguyên 3 chế độ: **không thu thập email · TẮT giới hạn 1 lần trả lời · không đổi kiểu câu hỏi**.
+
+Muốn tách sang **form riêng** cho bài này:
 
 1. Trên Google Drive: **nhân bản** form "Bảng điểm Cộng trừ nhẩm qua 10" (giữ nguyên 8 câu hỏi).
-2. Mở `/viewform` của form mới → xem mã nguồn → lấy 8 `entry.*` theo tiêu đề câu.
-3. Điền vào `FORM_ENDPOINT` (đổi `/viewform` → `/formResponse`) và `ENTRY` trong file, commit.
-4. Giữ nguyên 3 chế độ như form cũ: **không thu thập email · TẮT giới hạn 1 lần trả lời · không đổi kiểu câu hỏi**.
+2. Mở `/viewform` của form mới → xem mã nguồn → tìm `FB_PUBLIC_LOAD_DATA_` → lấy 8 `entry.*` theo tiêu đề câu.
+3. Điền vào `FORM_ENDPOINT` (đổi `/viewform` → `/formResponse`) và `ENTRY` trong `index.html`, commit.
+4. Vì câu hỏi chỉ là text thường, điểm hai bài gộp chung bảng không ghi đè nhau — mỗi bài POST đủ 8 cột.
 
 ## Mở bằng link (không cần tải file)
 
@@ -63,6 +74,9 @@ https://hoatran1127.github.io/bai-giang-doi-don-vi/
 - Toàn bộ 28 đáp số (12 ôn + 16 chấm) dò tay khớp phép tính độc lập.
 - Cú pháp JS kiểm tra bằng `node --check` tư duy (vm.Script), không lỗi.
 - Luồng POST dùng chung mẫu đã kiểm chứng ở `bai-giang-toan-4` (curl ẩn danh → 200, Sheet nhận đủ 8 cột).
+- `FORM_ENDPOINT` đang hoạt động: GET `/formResponse` trả `302` (redirect về trang cảm ơn) chứ không `404`.
+- 8 mã `entry.*` khớp 100% với map đã kiểm chứng trong `bai-giang-toan-4`, và khớp tiêu đề từng câu trong
+  `FB_PUBLIC_LOAD_DATA_` của `/viewform` (8 câu: Tên em → Đáp án em đã ghi).
 
 ## Hạn chế đã biết
 
