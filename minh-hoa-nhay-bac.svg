@@ -1,1 +1,63 @@
-PHN2ZyB2aWV3Qm94PSIwIDAgOTIwIDQ3MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmb250LWZhbWlseT0iTnVuaXRvLCBzYW5zLXNlcmlmIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9Ik1pbmggaOG7jWEgbmjhuqN5IGLhuq1jIMSR4buVaSDEkcahbiB24buLOiBrbSBzYW5nIG0sIG3hu5dpIGLGsOG7m2MgbmjDom4gMTAiPgogIDxkZWZzPgogICAgPG1hcmtlciBpZD0iYXJyIiB2aWV3Qm94PSIwIDAgMTAgMTAiIHJlZlg9IjgiIHJlZlk9IjUiIG1hcmtlcldpZHRoPSI3IiBtYXJrZXJIZWlnaHQ9IjciIG9yaWVudD0iYXV0by1zdGFydC1yZXZlcnNlIj4KICAgICAgPHBhdGggZD0iTTAsMCBMMTAsNSBMMCwxMCB6IiBmaWxsPSIjZjk3MzE2Ii8+CiAgICA8L21hcmtlcj4KICA8L2RlZnM+CgogIDwhLS0gVsOybmcgY3VuZyBuaOG6o3kgLS0+CiAgPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmI5MjNjIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1kYXNoYXJyYXk9IjEyIDgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+CiAgICA8cGF0aCBpZD0iYXJjMSIgZD0iTTE1NSwzMzAgUTIxMCwxNjUgMjY1LDMzMCIgbWFya2VyLWVuZD0idXJsKCNhcnIpIi8+CiAgICA8cGF0aCBpZD0iYXJjMiIgZD0iTTM5NSwzMzAgUTQ1MCwxNjUgNTA1LDMzMCIgbWFya2VyLWVuZD0idXJsKCNhcnIpIi8+CiAgICA8cGF0aCBpZD0iYXJjMyIgZD0iTTYzNSwzMzAgUTY5MCwxNjUgNzQ1LDMzMCIgbWFya2VyLWVuZD0idXJsKCNhcnIpIi8+CiAgPC9nPgoKICA8IS0tIE5ow6NuIMOXMTAgdHLDqm4gbeG7l2kgY3VuZyAtLT4KICA8ZyBmb250LXdlaWdodD0iOTAwIiBmb250LXNpemU9IjI2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4KICAgIDxyZWN0IHg9IjE3OCIgeT0iMTg4IiB3aWR0aD0iNjQiIGhlaWdodD0iNDAiIHJ4PSIyMCIgZmlsbD0iI2VmNDQ0NCIvPgogICAgPHRleHQgeD0iMjEwIiB5PSIyMTciIGZpbGw9IiNmZmYiPsOXMTA8L3RleHQ+CiAgICA8cmVjdCB4PSI0MTgiIHk9IjE4OCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjQwIiByeD0iMjAiIGZpbGw9IiNlZjQ0NDQiLz4KICAgIDx0ZXh0IHg9IjQ1MCIgeT0iMjE3IiBmaWxsPSIjZmZmIj7DlzEwPC90ZXh0PgogICAgPHJlY3QgeD0iNjU4IiB5PSIxODgiIHdpZHRoPSI2NCIgaGVpZ2h0PSI0MCIgcng9IjIwIiBmaWxsPSIjZWY0NDQ0Ii8+CiAgICA8dGV4dCB4PSI2OTAiIHk9IjIxNyIgZmlsbD0iI2ZmZiI+w5cxMDwvdGV4dD4KICA8L2c+CgogIDwhLS0gQuG7hyDEkcahbiB24buLIC0tPgogIDxnIGZvbnQtd2VpZ2h0PSI5MDAiIHRleHQtYW5jaG9yPSJtaWRkbGUiPgogICAgPHJlY3QgeD0iMjUiIHk9IjMzMCIgd2lkdGg9IjEzMCIgaGVpZ2h0PSI2MiIgcng9IjE4IiBmaWxsPSIjM2I4MmY2Ii8+CiAgICA8dGV4dCB4PSI5MCIgeT0iMzU4IiBmaWxsPSIjZmZmIiBmb250LXNpemU9IjMwIiBmb250LWZhbWlseT0iSmV0QnJhaW5zIE1vbm8sIG1vbm9zcGFjZSI+a208L3RleHQ+CiAgICA8dGV4dCB4PSI5MCIgeT0iMzgwIiBmaWxsPSIjZGJlYWZlIiBmb250LXNpemU9IjEzIiBmb250LXdlaWdodD0iNzAwIj5raS1sw7QtbcOpdDwvdGV4dD4KCiAgICA8cmVjdCB4PSIyNjUiIHk9IjMzMCIgd2lkdGg9IjEzMCIgaGVpZ2h0PSI2MiIgcng9IjE4IiBmaWxsPSIjMTRiOGE2Ii8+CiAgICA8dGV4dCB4PSIzMzAiIHk9IjM1OCIgZmlsbD0iI2ZmZiIgZm9udC1zaXplPSIzMCIgZm9udC1mYW1pbHk9IkpldEJyYWlucyBNb25vLCBtb25vc3BhY2UiPmhtPC90ZXh0PgogICAgPHRleHQgeD0iMzMwIiB5PSIzODAiIGZpbGw9IiNjY2ZiZjEiIGZvbnQtc2l6ZT0iMTMiIGZvbnQtd2VpZ2h0PSI3MDAiPmjDqWMtdMO0LW3DqXQ8L3RleHQ+CgogICAgPHJlY3QgeD0iNTA1IiB5PSIzMzAiIHdpZHRoPSIxMzAiIGhlaWdodD0iNjIiIHJ4PSIxOCIgZmlsbD0iIzIyYzU1ZSIvPgogICAgPHRleHQgeD0iNTcwIiB5PSIzNTgiIGZpbGw9IiNmZmYiIGZvbnQtc2l6ZT0iMzAiIGZvbnQtZmFtaWx5PSJKZXRCcmFpbnMgTW9ubywgbW9ub3NwYWNlIj5kYW08L3RleHQ+CiAgICA8dGV4dCB4PSI1NzAiIHk9IjM4MCIgZmlsbD0iI2RjZmNlNyIgZm9udC1zaXplPSIxMyIgZm9udC13ZWlnaHQ9IjcwMCI+xJHhu4EtY2EtbcOpdDwvdGV4dD4KCiAgICA8cmVjdCB4PSI3NDUiIHk9IjMzMCIgd2lkdGg9IjEzMCIgaGVpZ2h0PSI2MiIgcng9IjE4IiBmaWxsPSIjZjU5ZTBiIi8+CiAgICA8dGV4dCB4PSI4MTAiIHk9IjM1OCIgZmlsbD0iI2ZmZiIgZm9udC1zaXplPSIzMCIgZm9udC1mYW1pbHk9IkpldEJyYWlucyBNb25vLCBtb25vc3BhY2UiPm08L3RleHQ+CiAgICA8dGV4dCB4PSI4MTAiIHk9IjM4MCIgZmlsbD0iI2ZlZjNjNyIgZm9udC1zaXplPSIxMyIgZm9udC13ZWlnaHQ9IjcwMCI+bcOpdDwvdGV4dD4KICA8L2c+CgogIDwhLS0gQ2jDuiB0aMOtY2ggc+G7kSBi4bqtYyAtLT4KICA8ZyBmb250LXNpemU9IjE1IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNjQ3NDhiIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4KICAgIDx0ZXh0IHg9IjIxMCIgeT0iNDIwIj5i4bqtYyAxPC90ZXh0PgogICAgPHRleHQgeD0iNDUwIiB5PSI0MjAiPmLhuq1jIDI8L3RleHQ+CiAgICA8dGV4dCB4PSI2OTAiIHk9IjQyMCI+YuG6rWMgMzwvdGV4dD4KICA8L2c+CgogIDwhLS0g4bq+Y2ggbmjhuqN5IGThu41jIMSRxrDhu51uZyAtLT4KICA8dGV4dCBmb250LXNpemU9IjQ0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4KICAgIDxhbmltYXRlTW90aW9uIGR1cj0iN3MiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIgogICAgICBwYXRoPSJNMTU1LDMxOCBRMjEwLDE1MyAyNjUsMzE4IEwzOTUsMzE4IFE0NTAsMTUzIDUwNSwzMTggTDYzNSwzMTggUTY5MCwxNTMgNzQ1LDMxOCIvPgogICAg8J+QuAogIDwvdGV4dD4KCiAgPCEtLSBWw60gZOG7pSAtLT4KICA8ZyB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4KICAgIDxyZWN0IHg9IjIzMCIgeT0iMzAiIHdpZHRoPSI0NjAiIGhlaWdodD0iNTYiIHJ4PSIxNiIgZmlsbD0iI2VmZjZmZiIgc3Ryb2tlPSIjYmZkYmZlIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIDx0ZXh0IHg9IjQ2MCIgeT0iNjUiIGZvbnQtc2l6ZT0iMjIiIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiMxZDRlZDgiIGZvbnQtZmFtaWx5PSJKZXRCcmFpbnMgTW9ubywgbW9ub3NwYWNlIj4zIGttID0gMyDDlyAxMCDDlyAxMCDDlyAxMCA9IDMwMDAgbTwvdGV4dD4KICA8L2c+Cjwvc3ZnPgo=
+<svg viewBox="0 0 920 470" xmlns="http://www.w3.org/2000/svg" font-family="Nunito, sans-serif" role="img" aria-label="Minh họa nhảy bậc đổi đơn vị: km sang m, mỗi bước nhân 10">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#f97316"/>
+    </marker>
+  </defs>
+
+  <!-- Vòng cung nhảy -->
+  <g fill="none" stroke="#fb923c" stroke-width="5" stroke-dasharray="12 8" stroke-linecap="round">
+    <path id="arc1" d="M155,330 Q210,165 265,330" marker-end="url(#arr)"/>
+    <path id="arc2" d="M395,330 Q450,165 505,330" marker-end="url(#arr)"/>
+    <path id="arc3" d="M635,330 Q690,165 745,330" marker-end="url(#arr)"/>
+  </g>
+
+  <!-- Nhãn ×10 trên mỗi cung -->
+  <g font-weight="900" font-size="26" text-anchor="middle">
+    <rect x="178" y="188" width="64" height="40" rx="20" fill="#ef4444"/>
+    <text x="210" y="217" fill="#fff">×10</text>
+    <rect x="418" y="188" width="64" height="40" rx="20" fill="#ef4444"/>
+    <text x="450" y="217" fill="#fff">×10</text>
+    <rect x="658" y="188" width="64" height="40" rx="20" fill="#ef4444"/>
+    <text x="690" y="217" fill="#fff">×10</text>
+  </g>
+
+  <!-- Bệ đơn vị -->
+  <g font-weight="900" text-anchor="middle">
+    <rect x="25" y="330" width="130" height="62" rx="18" fill="#3b82f6"/>
+    <text x="90" y="358" fill="#fff" font-size="30" font-family="JetBrains Mono, monospace">km</text>
+    <text x="90" y="380" fill="#dbeafe" font-size="13" font-weight="700">ki-lô-mét</text>
+
+    <rect x="265" y="330" width="130" height="62" rx="18" fill="#14b8a6"/>
+    <text x="330" y="358" fill="#fff" font-size="30" font-family="JetBrains Mono, monospace">hm</text>
+    <text x="330" y="380" fill="#ccfbf1" font-size="13" font-weight="700">héc-tô-mét</text>
+
+    <rect x="505" y="330" width="130" height="62" rx="18" fill="#22c55e"/>
+    <text x="570" y="358" fill="#fff" font-size="30" font-family="JetBrains Mono, monospace">dam</text>
+    <text x="570" y="380" fill="#dcfce7" font-size="13" font-weight="700">đề-ca-mét</text>
+
+    <rect x="745" y="330" width="130" height="62" rx="18" fill="#f59e0b"/>
+    <text x="810" y="358" fill="#fff" font-size="30" font-family="JetBrains Mono, monospace">m</text>
+    <text x="810" y="380" fill="#fef3c7" font-size="13" font-weight="700">mét</text>
+  </g>
+
+  <!-- Chú thích số bậc -->
+  <g font-size="15" font-weight="700" fill="#64748b" text-anchor="middle">
+    <text x="210" y="420">bậc 1</text>
+    <text x="450" y="420">bậc 2</text>
+    <text x="690" y="420">bậc 3</text>
+  </g>
+
+  <!-- Ếch nhảy dọc đường -->
+  <text font-size="44" text-anchor="middle">
+    <animateMotion dur="7s" repeatCount="indefinite"
+      path="M155,318 Q210,153 265,318 L395,318 Q450,153 505,318 L635,318 Q690,153 745,318"/>
+    🐸
+  </text>
+
+  <!-- Ví dụ -->
+  <g text-anchor="middle">
+    <rect x="230" y="30" width="460" height="56" rx="16" fill="#eff6ff" stroke="#bfdbfe" stroke-width="2"/>
+    <text x="460" y="65" font-size="22" font-weight="800" fill="#1d4ed8" font-family="JetBrains Mono, monospace">3 km = 3 × 10 × 10 × 10 = 3000 m</text>
+  </g>
+</svg>
